@@ -5,9 +5,9 @@ const { TOKEN , GOOGLE_API_KEY } = require('./config1');
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
 
-const developers = ["","",""]
-const adminprefix = "#";
-let prefix = '1';
+const developers = ["434477601768079393","",""]
+const adminprefix = "Am";
+let prefix = '10';
 const youtube = new YouTube(GOOGLE_API_KEY);
 
 const queue = new Map();
